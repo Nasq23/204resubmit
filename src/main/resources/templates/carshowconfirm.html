@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+p th:inline="text">
+The car show's name was [[${carshow.name}]].<br />
+It is a [[${carshow.type}]].<br />
+It could be best described as
+[[$[carshow.description}]]
+</p>
+</body>
+</html>
